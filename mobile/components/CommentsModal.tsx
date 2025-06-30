@@ -49,7 +49,7 @@ const CommentsModal = ({ selectedPost, onClose }: CommentsModalProps) => {
 
               <View className="flex-1">
                 <View className="flex-row items-center mb-1">
-                  <Text className="font-bold textgray900 mr-1">
+                  <Text className="font-bold text-gray-900 mr-1">
                     {selectedPost.user.firstName} {selectedPost.user.lastName}
                   </Text>
                   <Text className="text-gray-500 ml-1">@{selectedPost.user.username}</Text>
